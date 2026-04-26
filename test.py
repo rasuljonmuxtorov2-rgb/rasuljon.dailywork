@@ -11,7 +11,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # ============================================================
 #                        TOKEN
 # ============================================================
-BOT_TOKEN = "8581554648:AAFHk21pQQ-I-eOAXBsTnxqvguGV4ftPbL4"
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ============================================================
 #                     SUPER ADMIN ID
